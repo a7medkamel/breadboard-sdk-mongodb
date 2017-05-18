@@ -11,5 +11,5 @@ class SDK {
 }
 
 module.exports = {
-  sdk : (...args) => new SDK(...args);
+  sdk : (...args) => new SDK(...args)
 }

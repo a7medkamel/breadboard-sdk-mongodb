@@ -4,9 +4,9 @@ var config  = require('config')
 
 class SDK {
   constructor(options = {}) {
-    let { bearer } = options;
+    let { bearer, remote } = options;
 
-    this.mongodb = new Mongo({ bearer });
+    this.mongodb = new Mongo({ bearer, remote });
   }
 }
 
